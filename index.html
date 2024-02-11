@@ -11,38 +11,31 @@
 
     <!--Ingreso de nombres-->
     <div class="nombres">
-      <form action="/" method="get">
+      <form method="get">
         <div>
-          <label for="nombre1">Nombre 1:</label>
-          <input type="text" name="entrada1" />
+          <label for="entrada1">Jugador 1:</label>
+          <input type="text" id="entrada1" placeholder="Ingrese un nombre"/>
         </div>
         <div>
-          <label for="nombre2">Nombre 2:</label>
-          <input type="text" name="entrada2" />
+          <label for="entrada2">Jugador 2:</label>
+          <input type="text" id="entrada2" placeholder="Ingrese un nombre"/>
         </div>
         <div>
-          <label for="nombre3">Nombre 3:</label>
-          <input type="text" name="entrada3" />
+          <label for="entrada3">Jugador 3:</label>
+          <input type="text" id="entrada3" placeholder="Ingrese un nombre"/>
         </div>
         <div>
-          <label for="nombre4">Nombre 4:</label>
-          <input type="text" name="entrada4" />
+          <label for="entrada4">Jugador 4:</label>
+          <input type="text" id="entrada4" placeholder="Ingrese un nombre"/>
         </div>
-        <!--
-        <br>
-       <input type="submit" value="Enviar">-->
-      </form>
-    </div>
-    <div class="sizes">
-      <h4>Tamaño de cartón</h4>
-      <button id="size3">3x3</button>
-      <button id="size4">4x4</button>
-      <button id="size5">5x5</button>
+      <h4>Tamaño del cartón</h4>
+      <input type="number" id="size" placeholder="Ingresa 3, 4 o 5">
   </div>
-  <div class="start">
+  <div class="starts">
     <br>
-    <button 
-    id="Start" disabled>Comenzar</button>
+    <button id="start" onclick="location.href='./bingo.html'" disabled>Comenzar</button>
   </div>
+</form>
+  <script src="./script.js"></script>
   </body>
 </html>
