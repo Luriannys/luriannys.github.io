@@ -8,8 +8,9 @@
   </head>
   <body>
     <h1>Bingo familiar</h1>
-
+<div class="container">
     <!--Ingreso de nombres-->
+    <div class="parte1">
     <div class="nombres">
       <form method="get">
         <div>
@@ -33,9 +34,206 @@
   </div>
   <div class="starts">
     <br>
-    <button id="start" onclick="location.href='./bingo.html'" disabled>Comenzar</button>
+    <button id="start" disabled>Comenzar</button>
   </div>
 </form>
-  <script src="./script.js"></script>
+</div>
+
+
+<!--Tablero de juego-->
+<div class="parte2" style="visibility: hidden">
+
+  <table class="carton">
+    <div id="carton1">
+    <caption class="filas" id="fila0">
+        BINGO
+    </caption>
+
+    <tr class="filas" id="fila1">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila2">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila3">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila4">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila5">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+  </div>
+  </table>
+
+  <table class="carton">
+    <div id="carton2">
+    <caption class="filas" id="fila0">
+        BINGO
+    </caption>
+
+    <tr class="filas" id="fila1">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila2">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila3">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila4">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila5">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+  </div>
+  </table>
+
+  <table class="carton">
+    <div id="carton3">
+    <caption class="filas" id="fila0">
+        BINGO
+    </caption>
+
+    <tr class="filas" id="fila1">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila2">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila3">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila4">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila5">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+  </div>
+  </table>
+
+  <table class="carton">
+    <div id="carton4">
+    <caption class="filas" id="fila0">
+        BINGO
+    </caption>
+
+    <tr class="filas" id="fila1">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila2">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila3">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila4">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+    <tr class="filas" id="fila5">
+      <td class="columnas" id="columna1">a</td>
+      <td class="columnas" id="columna2">a</td>
+      <td class="columnas" id="columna3">a</td>
+      <td class="columnas" id="columna4">a</td>
+      <td class="columnas" id="columna5">a</td>
+    </tr>
+  </div>
+  </table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  
   </body>
+  <script src="./script.js"></script>
 </html>
